@@ -1,0 +1,42 @@
+
+/***** header *****/
+
+/* new clearfix */
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .clearfix { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+.header-background {
+  background-image: url("../img/header.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+}
+
+.site-header .site-title {
+  display: block;
+  margin-top: 20px;
+  height: 190px;
+  width: 150px;
+  background-color: white;
+  background-image: url("../img/logo.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 5px solid #888;
+  border-radius: 10px;
+}
+
+.site-header .site-title div {
+  display: block;
+  width: 100%;
+  margin-top: 140px;
+  text-align: center;
+}
+  
+
+.site-footer .license {
+  text-align: center;
+}
+

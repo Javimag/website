@@ -1,0 +1,17 @@
+# Site settings
+title: Escornabot
+email: escornabot@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Escornabot is an open source educational robotics project to introduce
+  children into robotics and programming.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://escornabot.com" # the base hostname & protocol for your site
+twitter_username: escornabot
+github_username: escornabot
+
+# Build settings
+markdown: kramdown
+
+# i18n configuration 
+languages: ["en", "es", "gl"]
+
